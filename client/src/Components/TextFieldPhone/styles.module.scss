@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  gap: 5px;
+  width: 100%;
+
+  label {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .textFieldRoot {
+    input {
+      border-radius: 10px;
+      background-color: #f7f7f7;
+    }
+  }
+}
